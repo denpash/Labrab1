@@ -13,6 +13,7 @@ namespace calculator
             string[] result = calculcstring.Split(' ');
     
             float res = 0;
+            
             switch (result[1]) {
                 case "+":
                      res = float.Parse(result[0]) + float.Parse(result[2]);
@@ -34,6 +35,8 @@ namespace calculator
                     Console.WriteLine("Wrong value!!!!");
                     break;
 
+                    Console.WriteLine("Proggram finished!!!!!");
+                    Console.WriteLine("Proggram finished!!!!!");
             }
            
         }

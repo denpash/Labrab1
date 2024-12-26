@@ -6,10 +6,14 @@ namespace firstnamelastname
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("what is your name?");
+            Console.WriteLine("what is your FIRST name?");
 
-            string name = Console.ReadLine();
-            Console.WriteLine("Hello "+ name +"!");
+            string firstname = Console.ReadLine();
+            Console.WriteLine("all right "+ firstname +"!");
+            Console.WriteLine("what is your LAST name?");
+            string lastname = Console.ReadLine();
+            Console.WriteLine("Hello " + firstname + " " + lastname+ "!");
+            Console.WriteLine("YOU ARE AWESOME");
         }
     }
 }
