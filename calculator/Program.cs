@@ -37,6 +37,7 @@ namespace calculator
 
                     Console.WriteLine("Proggram finished!!!!!");
                     Console.WriteLine("Proggram finished!!!!!");
+                    Console.WriteLine("MASTERCHANGE!1");
             }
            
         }
